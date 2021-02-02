@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* ====== container ====== */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+/* ====== header ====== */
+.header {
+    height: 75px;
+    background-color: black;
+    padding: 18px 231px 20px 231px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-left {
+    margin-right: 41px;
+}
+
+.menu-right {
+    margin: 0 33px 0 0;
+}
+
+
+/* ====== page-banner ====== */
+.page-banner {
+    height: 764px;
+    background: #F1E4E6;
+    height: 764px;
+    padding: 75px 0 0 0;
+    box-sizing: border-box;
+    margin-bottom: 65px;
+}
+
+.page-banner-wrp {
+    height: 688px;
+    background-image: url(img/layer-top.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 735px;
+    background-position: -205px -13px;
+}
+
+.page-banner-wrp::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 92px;
+    position: absolute;
+    top: 295px;
+    left: 615px;
+    background-image: url(img/rectangle.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-banner-title {
+    position: absolute;
+    left: 635px;
+    top: 290px;
+    font-weight: 900;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.page-banner-subtitle {
+    position: absolute;
+    left: 635px;
+    top: 350px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.page-banner-subtitle-fashion {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    font-weight: 700px;
+    font-size: 33px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+
+/* ====== categories ====== */
+.categories {
+    margin-bottom: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categories-item {
+    width: 360px;
+    height: 260px;
+    background-image: url(img/for_woman.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    background-color: rgba(33, 22, 22, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    padding-top: 105px;
+    box-sizing: border-box;
+}
+
+.categories-item:nth-child(2) {
+    background-image: url(img/for_men.jpg);
+}
+
+.categories-item:nth-child(3){
+    background-image: url(img/for_kids.jpg);
+}
+
+.categories-item:last-child {
+    padding-top: 65px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    width: 100%;
+    height: 180px;
+    background-image: url(img/accessories.jpg);
+}
+
+.categories-item-subtitle {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.categories-item-title {
+    font-size: 24px;
+    color:  #F16D7F;
+}
+
+
+/* ====== products ====== */
+.product-title {
+    font-size: 30px;
+    color: #222222;
+    margin-bottom: 6px;
+    margin-left: 480px;
+}
+
+.product-subtitle {
+    font-size: 14px;
+    color: #9F9F9F;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.product-cart-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products-item {
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.products-item-title {
+    font-size: 13px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.profuct-txt {
+    padding-top: 25px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.products-item-txt {
+    font-size: 14px;
+    color: #5D5D5D;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.products-item-price {
+    font-size: 16px;
+    color: #F16D7F;
+}
+
+.products-btn {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 96px;
+    color: #F26376;
+    background: #ffffff;
+    padding: 14px 38px;
+    box-sizing: border-box;
+    border: 1px solid #FF6A6A;
+    margin-top: 18px;
+}
+
+/* ====== features ====== */
+.features {
+    background: #222224;
+}
+
+.features-wrp {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 103px;
+    padding-bottom: 104px;
+    box-sizing: border-box;
+}
+
+.features-item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-item-title {
+    font-size: 20px;
+    text-align: center;
+    color: #FBFBFB;
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+.features-item-txt {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+/* ====== subscribe-info ====== */
+.subscribe {
+    width: 100%;
+    height: 448px;
+    background-image: url(img/layer_bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(244, 244, 244, 0.7);
+    background-blend-mode: color;
+}
+
+.subscribe-wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-info {
+    width: 400px;
+    text-align: center;
+    padding-top: 87px;
+    padding-bottom: 126px;
+    box-sizing: border-box;
+}
+
+.ssubscribe-info-avatar {
+    height: 150px;
+}
+
+.subscribe-info-txt {
+    font-size: 20px;
+    color: #222224;
+    margin-top: 40px;
+}
+
+.subscribing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 156px;
+    box-sizing: border-box;
+}
+
+.subscribing-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #222224;
+    text-transform: uppercase;
+}
+
+.subscribing-subtitle {
+    font-size: 18px;
+    color: #222224;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+
+.subscribing-form {
+    
+}
+
+.subscribing-form-email {
+    background: #E1E1E1;
+    border: none;
+    width: 256px;
+    height: 49px;
+    border-radius: 20px 0 0 20px;
+}
+
+.subscribing-form-btn {
+    color: #FFFFFF;
+    background: #F16D7F;
+    border: none;
+    width: 100px;
+    height: 49px;
+    border-radius: 0 20px 20px 0;
+}
+
+.footer {
+    height: 300px;
+}
