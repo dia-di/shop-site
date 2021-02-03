@@ -376,3 +376,28 @@ nav {
 .page-footer-socials-item:nth-child(4) {
     background-image: url(img/twiter_footer.svg);
 }
+
+
+/* ====== product ======*/
+.product-page-top {
+    background: #F8F3F4;
+}
+
+.product-page-top-wrp {
+    text-transform: uppercase;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 132px 0;
+}
+
+.product-page-top-title {
+    font-size: 24px;
+    color: #F16D7F;
+}
+
+.product-page-top-nav {
+    font-size: 14px;
+    color: #636363;
+}
