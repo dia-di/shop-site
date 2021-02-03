@@ -17,7 +17,7 @@ body {
 
 
 /* ====== header ====== */
-.header {
+.page-header {
     height: 75px;
     background-color: black;
     padding: 18px 231px 20px 231px;
@@ -30,7 +30,7 @@ nav {
 }
 
 .menu-left {
-    margin-right: 41px;
+    margin: 0 41px 0 0;
 }
 
 .menu-right {
@@ -45,7 +45,7 @@ nav {
     height: 764px;
     padding: 75px 0 0 0;
     box-sizing: border-box;
-    margin-bottom: 65px;
+    margin: 0 0 65px 0;
 }
 
 .page-banner-wrp {
@@ -120,7 +120,7 @@ nav {
     background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
-    padding-top: 105px;
+    padding: 105px 0 0 0;
     box-sizing: border-box;
 }
 
@@ -133,9 +133,9 @@ nav {
 }
 
 .categories-item:last-child {
-    padding-top: 65px;
+    padding: 65px 0 0 0;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin: 30px 0 0 0 ;
     width: 100%;
     height: 180px;
     background-image: url(img/accessories.jpg);
@@ -144,7 +144,7 @@ nav {
 .categories-item-subtitle {
     font-size: 18px;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
 }
 
 .categories-item-title {
@@ -157,14 +157,13 @@ nav {
 .product-title {
     font-size: 30px;
     color: #222222;
-    margin-bottom: 6px;
-    margin-left: 480px;
+    margin: 0 0 6px 480px;
 }
 
 .product-subtitle {
     font-size: 14px;
     color: #9F9F9F;
-    margin-bottom: 48px;
+    margin: 0 0 48px 0;
     text-align: center;
 }
 
@@ -178,7 +177,7 @@ nav {
     width: 360px;
     height: 581px;
     background: #F8F8F8;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
 }
 
 .products-item-title {
@@ -188,17 +187,14 @@ nav {
 }
 
 .profuct-txt {
-    padding-top: 25px;
-    padding-left: 18px;
-    padding-bottom: 20px;
+    padding: 25px 0 20px 18px;
     box-sizing: border-box;
 }
 
 .products-item-txt {
     font-size: 14px;
     color: #5D5D5D;
-    margin-top: 12px;
-    margin-bottom: 18px;
+    margin: 12px 0 18px 0;
 }
 
 .products-item-price {
@@ -211,14 +207,14 @@ nav {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 96px;
+    margin: 18px 0 96px 0;
     color: #F26376;
     background: #ffffff;
     padding: 14px 38px;
     box-sizing: border-box;
     border: 1px solid #FF6A6A;
-    margin-top: 18px;
 }
+
 
 /* ====== features ====== */
 .features {
@@ -228,8 +224,7 @@ nav {
 .features-wrp {
     display: flex;
     justify-content: space-between;
-    padding-top: 103px;
-    padding-bottom: 104px;
+    padding: 103px 0 104px 0;
     box-sizing: border-box;
 }
 
@@ -244,8 +239,7 @@ nav {
     font-size: 20px;
     text-align: center;
     color: #FBFBFB;
-    margin-top: 28px;
-    margin-bottom: 16px;
+    margin: 28px 0 16px 0;
 }
 
 .features-item-txt {
@@ -272,10 +266,9 @@ nav {
 }
 
 .subscribe-info {
-    width: 400px;
+    width: 360px;
     text-align: center;
-    padding-top: 87px;
-    padding-bottom: 126px;
+    padding: 87px 0 126px 0;
     box-sizing: border-box;
 }
 
@@ -286,15 +279,15 @@ nav {
 .subscribe-info-txt {
     font-size: 20px;
     color: #222224;
-    margin-top: 40px;
+    margin: 40px 0 0 0;
 }
 
 .subscribing {
+    width: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
-    padding-bottom: 156px;
+    padding: 150px 0 156px 0;
     box-sizing: border-box;
 }
 
@@ -309,31 +302,77 @@ nav {
     font-size: 18px;
     color: #222224;
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 32px;
-}
-
-.subscribing-form {
-    
+    margin: 10px 0 32px 0;
 }
 
 .subscribing-form-email {
     background: #E1E1E1;
     border: none;
+    border-radius: 20px 0 0 20px;
     width: 256px;
     height: 49px;
-    border-radius: 20px 0 0 20px;
+    padding: 7px 64px 6px 22px;
+    box-sizing: border-box;
+    font-size: 14px;
 }
 
 .subscribing-form-btn {
+    margin: 0 0 0 -5px;
     color: #FFFFFF;
     background: #F16D7F;
     border: none;
     width: 100px;
     height: 49px;
     border-radius: 0 20px 20px 0;
+    padding: 7px 7px 6px 8px;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
-.footer {
-    height: 300px;
+
+/* ====== page-footer ====== */
+.page-footer { 
+    background: #222224;
+}
+
+.page-footer-txt {
+    font-size: 16px;
+    color: #FBFBFB;
+}
+
+.page-footer-wrp {
+    width: 100%;
+    height: 80px;
+    padding: 30px 0 30px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-footer-socials-item {
+    display: inline-block;
+    background: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    margin: 0 8px 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+}
+
+.page-footer-socials-item:nth-child(1) {
+    background-image: url(img/fb_footer.svg);
+}
+
+.page-footer-socials-item:nth-child(2) {
+    background-image: url(img/inst_footer.svg);
+}
+
+.page-footer-socials-item:nth-child(3) {
+    background-image: url(img/pint_footer.svg);
+}
+
+.page-footer-socials-item:nth-child(4) {
+    background-image: url(img/twiter_footer.svg);
 }
