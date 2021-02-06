@@ -216,6 +216,11 @@ nav {
     border: 1px solid #FF6A6A;
 }
 
+.products-btn-url {
+    text-decoration: none;
+    color: #F26376;
+}
+
 
 /* ====== features ====== */
 .features {
