@@ -184,6 +184,7 @@ nav {
     font-size: 13px;
     color: #000000;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .profuct-txt {
@@ -383,8 +384,7 @@ nav {
     background: #F8F3F4;
 }
 
-.product-page-top-wrp {
-    text-transform: uppercase;
+.product-page-top-nav {
     height: 150px;
     display: flex;
     justify-content: space-between;
@@ -392,12 +392,35 @@ nav {
     margin: 0 0 132px 0;
 }
 
-.product-page-top-title {
-    font-size: 24px;
-    color: #F16D7F;
+.product-page-top-list {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
 }
 
-.product-page-top-nav {
+.product-page-top-nav-left {
+    font-size: 24px;
+    color: #F16D7F;
+    text-decoration: none;
+    margin: 0 760px 0 0;
+}
+
+.product-page-top-nav-home {
     font-size: 14px;
     color: #636363;
+    text-decoration: none;
+}
+
+.product-page-top-nav-men {
+    font-size: 14px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.product-page-top-nav-arrivals {
+    font-size: 14px;
+    color: #F16D7F;
+    text-decoration: none;
+    font-weight: bold;
 }
