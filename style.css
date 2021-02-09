@@ -171,6 +171,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 0 20px 0;
 }
 
 .products-item {
@@ -225,6 +226,7 @@ nav {
 /* ====== features ====== */
 .features {
     background: #222224;
+    margin: 96px 0 0 0;
 }
 
 .features-wrp {
@@ -428,4 +430,39 @@ nav {
     color: #F16D7F;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* ====== pages ======*/
+.pages {
+   
+
+}
+
+.pages-items {
+    width: 280px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EBEBEB;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+
+.pages-items::before {
+    content: url(img/back.svg);
+}
+
+.pages-items::after {
+    content: url(img/next.svg);
+}
+
+.pages-items-nav {
+    font-size: 16px;
+    color: #bebbbb;;
+}
+
+.pages-items-nav:hover {
+    color: #EF5B70;
 }
